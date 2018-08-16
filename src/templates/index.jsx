@@ -24,7 +24,8 @@ import PaginatedContent from "../layouts/PaginatedContent/PaginatedContent";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 
 //Page text
-const pageTitle = "Instabuilder 2.0 for Wordpress"
+const title = "Instabuilder 2.0 for Wordpress"
+const description = "Get your bitch in the anus now"
 
 //Image Urls
 const gifUrl = './images/sample-project-2.gif'
@@ -107,7 +108,7 @@ class IndexTemplate extends React.Component {
     return (
 
       <Drawer className="home-template" isOpen={this.state.menuOpen}>
-        <Helmet title={pageTitle} />
+        <Helmet title={title} />
         <SEO postEdges={nodes} />
 
         {/* The blog navigation links */}
@@ -123,11 +124,11 @@ class IndexTemplate extends React.Component {
               </MainNav>
               */}
               <div className="vertical">
-                <PageTitle text={pageTitle} />
+                <PageTitle text={title} />
                 <div className="main-header-content inner">
                   <div className="row">
                     <div className="col left">
-                      <PageDescription text={"asdfs"}/>
+                      <PageDescription text={description}/>
                       <FancyButton text={"Click to find out more"}/>
                     </div>
 
