@@ -142,7 +142,7 @@ class IndexTemplate extends React.Component {
                   </div>
                 </div>
               </div>
-              <Link
+             {/* <Link
                 className="scroll-down icon-arrow-left"
                 to="content"
                 data-offset="-45"
@@ -150,7 +150,7 @@ class IndexTemplate extends React.Component {
                 smooth
                 duration={500}>
                 <span className="hidden">Scroll Down</span>
-              </Link>
+              </Link>*/}
             </MainHeader>
             {/*<PaginatedContent
               page={page}

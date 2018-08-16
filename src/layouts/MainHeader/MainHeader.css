@@ -44,7 +44,7 @@
     
 /* Put a semi-opaque radial gradient behind the icon to make it more visible
    on photos which happen to have a light background. */
-.home-template .main-header::after {
+/*.home-template .main-header::after {
     display: block;
     content: " ";
     width: 150px;
@@ -55,7 +55,7 @@
     left: 50%;
     margin-left: -75px;
     background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
-}
+}*/
 
 /* Hide when there's no cover image or on page2+ */
 .no-cover.main-header::after,
