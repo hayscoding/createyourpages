@@ -11,7 +11,7 @@ module.exports = {
   siteDescription:
     "Quickly Build High Converting Landing Pages. No Code Required.", // Website description used for RSS feeds/meta description tag.
   siteCover:
-    "./images/pink-background.png", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
+    "./images/fancy-background.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssAuthor: "Hays Stanford", // The author name used in the RSS file
