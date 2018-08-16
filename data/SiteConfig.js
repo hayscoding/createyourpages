@@ -2,14 +2,14 @@ module.exports = {
   blogPostDir: "sample-posts", // The name of directory that contains your posts.
   blogAuthorDir: "sample-authors", // The name of directory that contains your 'authors' folder.
   blogAuthorId: "casper", // The default and fallback author ID used for blog posts without a defined author.
-  siteTitle: "Hays Stanford", // Site title.
-  siteTitleAlt: "Hays Stanford | Online Enthusiast", // Alternative site title for SEO.
+  siteTitle: "CreateYourPages", // Site title.
+  siteTitleAlt: "CreateYourPages | Quickly Build High Converting Sites", // Alternative site title for SEO.
   siteLogo:
     "https://haysclark.github.io/gatsby-starter-casper/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
-  siteUrl: "https://productlife.netlify.com", // Domain of your website without pathPrefix.
+  siteUrl: "https://createyourpages.netlify.com", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
-    "Learn JavaScript by Building What You Want.", // Website description used for RSS feeds/meta description tag.
+    "Quickly Build High Converting Landing Pages. No Code Required.", // Website description used for RSS feeds/meta description tag.
   siteCover:
     "#", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
