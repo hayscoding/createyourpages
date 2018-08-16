@@ -15,7 +15,7 @@
     max-width: 80%;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 1250px) {
     .row {
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -36,7 +36,7 @@
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1250) {
     .col {
         padding-bottom: 10%;
     }
