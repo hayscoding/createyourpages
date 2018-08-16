@@ -24,8 +24,8 @@ import PaginatedContent from "../layouts/PaginatedContent/PaginatedContent";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 
 //Page text
-const title = "Instabuilder 2.0 for Wordpress"
-const description = "Get your bitch in the anus now"
+const title = "Landing Page Creator for Wordpress"
+const description = "Create High Converting Landing Pages Without Code"
 
 //Image Urls
 const gifUrl = './images/sample-project-2.gif'
@@ -129,7 +129,9 @@ class IndexTemplate extends React.Component {
                   <div className="row">
                     <div className="col left">
                       <PageDescription text={description}/>
-                      <FancyButton text={"Click to find out more"}/>
+                      <a href="http://bit.ly/2vByRtK">
+                        <FancyButton text={"Click to find out more"} />
+                      </a>
                     </div>
 
                     <div className="col right">
