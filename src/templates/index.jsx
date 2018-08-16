@@ -118,6 +118,7 @@ class IndexTemplate extends React.Component {
           {/* All the main content gets inserted here */}
           <div className="home-template" style={{background: 'white'}}>
             {/* The big featured header */}
+            {(() => {console.log(config.siteCover)})()}
             <MainHeader cover={config.siteCover}>
               {/*
               <MainNav overlay={config.siteCover}>
