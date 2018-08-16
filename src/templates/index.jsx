@@ -16,6 +16,7 @@ import MenuButton from "../components/MenuButton/MenuButton";
 import PageTitle from "../components/PageTitle/PageTitle";
 import PageImage from "../components/PageImage/PageImage";
 import Video from "../components/Video/Video";
+import FancyButton from "../components/FancyButton/FancyButton";
 import PageDescription from "../components/PageDescription/PageDescription";
 import PageEmailForm from "../components/PageEmailForm/PageEmailForm";
 import ProductVote from "../components/ProductVote/ProductVote";
@@ -127,13 +128,7 @@ class IndexTemplate extends React.Component {
                   <div className="row">
                     <div className="col left">
                       <PageDescription text={"asdfs"}/>
-                      <Link
-                        to="signup"
-                        data-offset="-45"
-                        spy
-                        smooth
-                        duration={500}>
-                      </Link>
+                      <FancyButton text={"Click to find out more"}/>
                     </div>
 
                     <div className="col right">
