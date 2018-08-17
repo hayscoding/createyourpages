@@ -156,7 +156,7 @@
         padding: 15% 0;
     }
 
-    .home-template .main-header::after { display: none; }
+    /*.home-template .main-header::after { display: none; }*/
 
     .paged .main-header {
         min-height: 180px;

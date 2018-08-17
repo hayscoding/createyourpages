@@ -162,7 +162,6 @@ class IndexTemplate extends React.Component {
               {/*<PostListing postEdges={nodes} postAuthors={authorsEdges} />
             </PaginatedContent>*/}
           </div>
-
           {/* The tiny footer at the very bottom */}
           <Footer
             copyright={config.copyright}
